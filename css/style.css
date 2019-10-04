@@ -1,0 +1,51 @@
+body {
+    background: white;
+    align-items: center;
+}
+#container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    height: 200px;
+    width: 300px;
+    position: relative;
+    margin: 0 auto;
+}
+#display {
+    position: absolute;
+    left: 140px;
+    top: 50px;
+    font-size: 50px;
+}
+#plus {
+    position: relative;
+    top: 20px;
+    font-size: 50px;
+    background: gray;
+    color: white;
+    border-radius: 10px;
+}
+#number {
+    position: relative;
+    top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+#minus {
+    position: relative;
+    top: 20px;
+    font-size: 50px;
+    background: gray;
+    color: white;
+    border-radius: 10px;
+}
+
+#minus:hover {
+    background: white;
+    color: gray;
+}
+#plus:hover {
+    background: white;
+    color: gray;
+}
